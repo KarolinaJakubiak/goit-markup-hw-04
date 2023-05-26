@@ -6,6 +6,7 @@
     --almost-white: #f5f4fa;
     --dark-grey: #2f303a;
     --light: #ececec;
+    --black: #000000;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -67,6 +68,13 @@ section {
 .background {
     background-color: var(--dark-grey);
     padding: 200px 252px 200px 252px;
+    background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/office.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .background-bottom {
     background-color: var(--dark-grey);
@@ -123,6 +131,15 @@ section {
     text-align: left;
 }
 .specialty {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1, 2;
+    letter-spacing: 3%;
+    vertical-align: top;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.clients-text {
     font-size: 36px;
     font-weight: 700;
     line-height: 1, 2;
@@ -198,6 +215,11 @@ section {
 .button-design:active {
     color: var(--snow);
     background-color: var(--brand-color);
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.12);
+}
+.shadows:hover {
+    border-radius: 4px;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 16%);
 }
 .project-name {
     font-size: 18px;
