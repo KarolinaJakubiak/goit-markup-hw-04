@@ -249,9 +249,10 @@ section {
 }
 .icons-flex {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 1200px;
+    margin: 0 auto;
 }
 .bottom-line {
     border: var(--light) solid 1px;
