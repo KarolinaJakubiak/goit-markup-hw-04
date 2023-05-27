@@ -243,6 +243,16 @@ section {
     align-items: center;
     height: 78px;
 }
+
+.icons-color {
+    background-color: var(--almost-white);
+}
+.icons-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+}
 .bottom-line {
     border: var(--light) solid 1px;
 }
