@@ -246,7 +246,11 @@ section {
     align-items: center;
     height: 78px;
 }
-
+.footer-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 .icons-color {
     background-color: var(--almost-white);
 }
@@ -346,4 +350,56 @@ section {
     padding-left: 24px;
     border: 1px solid var(--light);
     border-top: none;
+}
+
+.flex-team {
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    margin: 0;
+}
+.social-logos {
+    color: var(--icons-grey);
+    fill: currentColor;
+}
+.logos-design {
+    fill: var(--mouse);
+    width: 24px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+.logos-design:hover {
+    border-radius: 50%;
+    cursor: pointer;
+    background: var(--brand-color);
+    fill: var(--snow);
+}
+.title-footer {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: var(--snow);
+}
+.ul-footer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.list-footer {
+    margin-right: 10px;
+    width: 44px;
+    height: 44px;
+}
+.icon-social-footer {
+    background: var(--mouse);
+    border-radius: 50%;
+    fill: var(--snow);
+}
+.icon-social-footer:hover {
+    background: var(--brand-color);
+    border-radius: 50%;
+    cursor: pointer;
+    fill: var(--snow);
 }
