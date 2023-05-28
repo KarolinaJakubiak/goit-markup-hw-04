@@ -7,6 +7,7 @@
     --dark-grey: #2f303a;
     --light: #ececec;
     --black: #000000;
+    --icons-grey: #afb1b8;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -24,6 +25,7 @@ h4 {
 section {
     padding-block: 94px;
 }
+
 .logo-dark {
     font-family: raleway;
     color: var(--almost-black);
@@ -121,6 +123,7 @@ section {
     letter-spacing: 3%;
     vertical-align: top;
     text-align: left;
+    margin-top: 40px;
 }
 .text-style {
     color: var(--mouse);
@@ -246,6 +249,26 @@ section {
 
 .icons-color {
     background-color: var(--almost-white);
+}
+.icons-design {
+    fill: var(--icons-grey);
+}
+.icons-design:hover {
+    fill: var(--brand-color);
+}
+.icons-link:hover {
+    fill: var(--brand-color);
+}
+.clients-border {
+    list-style: none;
+    border: 1px solid var(--icons-grey);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.clients-border:hover {
+    list-style: none;
+    border: 1px solid var(--brand-color);
+    border-radius: 4px;
 }
 .icons-flex {
     display: flex;
