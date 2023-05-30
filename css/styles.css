@@ -221,6 +221,7 @@ section {
     box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.12);
 }
 .shadows:hover {
+    cursor: pointer;
     border-radius: 4px;
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 16%);
 }
@@ -253,16 +254,17 @@ section {
 }
 .icons-color {
     background-color: var(--almost-white);
+    padding-block: 25px;
+    padding-inline: 100px;
 }
 .icons-design {
     fill: var(--icons-grey);
 }
-.icons-design:hover {
+a:hover,
+a:focus {
     fill: var(--brand-color);
 }
-.icons-link:hover {
-    fill: var(--brand-color);
-}
+
 .clients-border {
     list-style: none;
     border: 1px solid var(--icons-grey);
@@ -314,6 +316,7 @@ section {
 .item {
     background-color: var(--snow);
     justify-content: space-between;
+    width: 270px;
 }
 
 .specialty-pics {
