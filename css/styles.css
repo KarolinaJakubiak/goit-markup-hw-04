@@ -141,6 +141,7 @@ section {
     vertical-align: top;
     text-align: center;
     padding-bottom: 50px;
+    margin-top: 60px;
 }
 .clients-text {
     font-size: 36px;
@@ -365,9 +366,9 @@ a:focus {
 
 .flex-team {
     display: flex;
-    justify-content: center;
-    align-items: space-around;
-    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 50px;
 }
 .social-logos {
     color: var(--icons-grey);
@@ -375,8 +376,8 @@ a:focus {
 }
 .logos-design {
     fill: var(--mouse);
-    width: 24px;
-    height: 24px;
+    width: 40px;
+    height: 40px;
     margin-bottom: 20px;
 }
 .logos-design:hover {
@@ -407,6 +408,8 @@ a:focus {
     background: var(--mouse);
     border-radius: 50%;
     fill: var(--snow);
+    width: 40px;
+    height: 40px;
 }
 .icon-social-footer:hover {
     background: var(--brand-color);
