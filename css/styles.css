@@ -260,17 +260,24 @@ section {
 .icons-design {
     fill: var(--icons-grey);
 }
+.icons-design:hover {
+    fill: var(--brand-color);
+}
 a:hover,
 a:focus {
     fill: var(--brand-color);
 }
 
 .clients-border {
-    box-sizing: border-box;
     list-style: none;
     border: 1px solid var(--icons-grey);
     border-radius: 4px;
     cursor: pointer;
+    width: 170px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .clients-border:hover {
     list-style: none;
